@@ -20,7 +20,7 @@ After this practice you should be able to
 
 1. Create a new environment named *ISAT_420_S26*
    1. I recommend trying this on the command line. 
-        - For Windows: Go the the start menu and open the `Anaconda Prompt`
+        - For Windows: Go the the start menu and open the `Anaconda Powershell Prompt`
         - For Apple: Open the `Terminal` in launcher and enter the neccesary commands 
 1. Activate the environment and install at least the following packages: `jupyter`, `xarray`, `netcdf4`, `matplotlib`
    - Note: For some Anaconda installations (i.e. the Windows Version), the direct installation of these packages fails. This is because, they are distributed through the `conda-forge` channel.   
@@ -36,7 +36,11 @@ After this practice you should be able to
      conda config --add default_channels conda-forge
      ```        
 1. Launch a jupyter notebook to test whether your installation works by running the notebook in the `Code` directory:  `w7_environment_test.ipynb`
-1. (Optional): Use the provided `environment.yml` file to update your environment. 
+1. (Optional): Use the provided `environment.yml` file to update your environment.
+   - Note: This requires you to have the `environment.yml` file in your current working directory.
+      - Here is a quick guide on how to navigate directories within the _Terminal_: [Linux Command - Shell Tutorial](https://linuxcommand.org/lc3_lts0020.php).
+         - This is a bit too much information, but _Windows Powershell_ which is running in the windows _Terminal_ and _bash_ which is running on Mac and Linux are two flavours of different kinds of interactive command interpreters (also known as [Command Line Interface](https://en.wikipedia.org/wiki/Command-line_interface). They differ in how commands are written but have sufficient overlap in the basics, that it won't matter for us.
+
 
 ## Learning Checklist
 
